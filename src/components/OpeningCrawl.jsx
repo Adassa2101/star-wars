@@ -20,7 +20,7 @@ const OpeningCrawl = () => {
 
             <p className={"farGalaxy"}>
                 <span className="spinner-border spinner-border-sm"></span>
-                Loading...
+                Loading..
             </p>
         );
     }
