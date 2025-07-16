@@ -1,4 +1,4 @@
-header, footer {
+/*header, footer {
   background-color: rgba(60, 69, 67, 0.6);
 }
 
@@ -7,7 +7,7 @@ header, footer {
 
 /* main */
 
-.float-start img {
+/*.float-start img {
   box-shadow: 0.6rem 0.6rem 0.6rem rgba(60, 69, 67, 0.6);
 }
 
@@ -30,7 +30,7 @@ header, footer {
 
 /* bootstrap customization */
 
-.btn-danger {
+/*.btn-danger {
   border: 2px solid black;
   background-color: rgba(204, 3, 35, 0.5);
   color: #eedb00;
@@ -38,4 +38,4 @@ header, footer {
 
 .border {
   border-color: #eedb00 !important;
-}
+}*/
