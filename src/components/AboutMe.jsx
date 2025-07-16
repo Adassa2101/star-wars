@@ -6,7 +6,7 @@ const AboutMe = () => {
     const [hero, setHero] = useState();
     useEffect(() => {
         const hero = JSON.parse(localStorage.getItem("hero"));
-        if (hero && ((Date.now() - hero.timestamp) < period_month)) {
+        if  (hero && ((Date.now() - hero.timestamp) < period_month)) {
             setHero(hero.payload);
         } else {
             fetch(`${base_url}/v1/peoples/1`)

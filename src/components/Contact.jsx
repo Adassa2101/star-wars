@@ -8,7 +8,7 @@ const Contact = () => {
 
 
     async function getPlanets() {
-        const res =  await fetch(`${base_url}/v1/planets`);
+        const res = await fetch(`${base_url}/v1/planets`);
         const data = await res.json();
         const planets = data.map(item => item.name);
         setPlanets(planets);
